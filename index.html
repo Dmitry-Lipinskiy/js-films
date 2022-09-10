@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="search-container">
+        <h3>Search:</h3>
+        <div class="form-title">
+            <h4>Title:</h4>
+            <input id="filmTitle" name="title" value="">
+        </div>
+        <div class="form-type">
+            <h4>Type:</h4>
+            <select id="filmType" name="type">
+                <option value="movie" selected>Movie</option>
+                <option value="series">Series</option>
+                <option value="episode">Episode</option>
+            </select>
+        </div>
+        <button class="search">Search</button>
+    </div>
+
+
+    <div class="film-container">
+        <!-- <h3>Films:</h3>
+        <div class="films-block-item">
+            <div class="film-container-item">
+                <div class="film-container-item-image">
+                    <img class="img-item" src="${film.Poster}" alt="">
+                </div>
+
+                <div class="film-container-item-info">
+                    <p class="title">${film.Type}</p>
+                    <p class="name">${film.Title}</p>
+                    <div class="year">${film.Year}</p>
+                    <button class="details-button" data-id="${film.imdbID}">Details</button>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="paginator">
+        <button id="paginatorPrev" class="pagPrev" disabled>Prev</button>
+        <button id="paginatorNext">Next</button>
+    </div>
+
+
+    <div class="film-info">
+        <!-- <div class="modal-content">
+            <div class="close">&times;</div>
+            <div class="modal-header">Film info:</div>
+            <div class="film-container-info">
+                <div class="film-container-info-image">
+                    <img class="img-info" src="https://m.media-amazon.com/images/M/MV5BMTc0NTUwMTU5OV5BMl5BanBnXkFtZTcwNjAwNzQzMw@@._V1_SX300.jpg" alt="">
+                </div>
+
+                <div class="film-block-info">
+                    <div class="info">
+                        <p class="info-name">Title:</p>
+                        <p class="info-value">11111</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-name">Released:</p>
+                        <p class="info-value">22222</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-name">Genre:</p>
+                        <p class="info-value">33333</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-name">Country:</p>
+                        <p class="info-value"></p>
+                    </div>
+                    <div class="info">
+                        <p class="info-name">Director:</p>
+                        <p class="info-value">44444</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-name">Writer:</p>
+                        <p class="info-value">55555</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-name">Actors:</p>
+                        <p class="info-value">66666</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-name">Awards:</p>
+                        <p class="info-value">77777</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
